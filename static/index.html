@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the Custom Web Server</title>
+    <title>File Upload and Download Server</title>
 </head>
 <body>
-    <h1>Hello from the Custom Web Server!</h1>
-    <p>This is a simple static file served by your Python server.</p>
+    <h1>Upload a File</h1>
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" name="file" required>
+        <button type="submit">Upload File</button>
+    </form>
+
+    <h2>Download Files</h2>
+    <ul>
+        <!-- Dynamically generated list of files -->
+        {% for file in files %}
+            <li><a href="/download/{{ file }}">{{ file }}</a></li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
