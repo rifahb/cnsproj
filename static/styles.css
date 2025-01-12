@@ -3,14 +3,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #DDCECD;
     color: #333;
     text-align: center;
 }
 
 /* Header section */
 h1 {
-    color: #4CAF50;
+    color: #19647E;
     font-size: 32px;
     margin-top: 30px;
 }
@@ -22,7 +22,7 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #DDCECD;
 }
 
 input[type="file"] {
@@ -34,7 +34,7 @@ input[type="file"] {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #28AFB0;
     color: white;
     padding: 12px 20px;
     font-size: 16px;
@@ -45,12 +45,12 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #19647E;
 }
 
 /* Download Files Section */
 h2 {
-    color: #333;
+    color: #19647E;
     margin-top: 40px;
     font-size: 28px;
 }
@@ -66,13 +66,13 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #37392E;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 ul li a:hover {
-    color: #45a049;
+    color: #19647E;
 }
 
 /* Responsive design for smaller screens */
