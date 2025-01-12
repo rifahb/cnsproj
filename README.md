@@ -70,6 +70,14 @@ The **Secure Custom HTTP Server** has successfully implemented the following fea
 - **File Listing Interface**: A simple web interface allows users to view available files and download them securely.
 - **Encryption Performance**: The use of ChaCha20 encryption ensures fast encryption and decryption times while maintaining a high level of security.
 
+## Screenshots
+![WhatsApp Image 2025-01-12 at 21 57 07](https://github.com/user-attachments/assets/bb0f26fa-415d-4b8b-9e7d-ef18ea309c2b)
+
+![CBFFA5DA-C1E9-4AE4-9E8B-69CCBA43E8D2](https://github.com/user-attachments/assets/b6c94f0d-50e5-455f-857a-b42311f12582)
+
+![WhatsApp Image 2025-01-12 at 21 59 37](https://github.com/user-attachments/assets/0ac58bb0-b40a-46df-a121-7ca70ce1aa48)
+
+
 ## References
 
 1. **ChaCha20 Encryption Algorithm**: https://en.wikipedia.org/wiki/ChaCha20
