@@ -61,6 +61,7 @@ class FileUploadDownloadHandler(SimpleHTTPRequestHandler):
         <button type="submit">Upload File</button>
         </form>
         <h2>Download Files</h2>
+        <link rel="stylesheet" href="static/styles.css"> 
         <ul>"""
         for file in files:
             html += f'<li><a href="/download/{urllib.parse.quote(file)}">{file}</a></li>'
